@@ -17,7 +17,7 @@
 5. Make a commit after completing each prompt.
 6. You are required to turn in your submission by making a pull request on the original repository.
 
-Unless otherwise specified on the calendar or by an instructor, homework is due the next morning by 10:00am EST.
+Unless otherwise specified on the calendar or by an instructor, homework is due the next morning by 9:00am EST.
 
 ### Preview Tomorrow's Content
 
@@ -38,7 +38,7 @@ A series of prompts are located in the `script.js` file. Complete each prompt an
 
 ## Too Easy?
 
-Check out this [repo](https://git.generalassemb.ly/sei-921/array-methods-practice) for more Array Methods practice!
+Check out this [repo](https://git.generalassemb.ly/SEIR-1130/array-methods-practice) for more Array Methods practice!
 
 ## Plagiarism
 
