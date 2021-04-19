@@ -3,16 +3,17 @@
 // method needs to meet each questions's criteria.
 
 const holidays = [
-	{ name: 'valentines day', month: 'february' },
-	{ name: 'cinco de mayo', month: 'may' },
-	{ name: 'halloween', month: 'october' },
+  { name: "valentines day", month: "february" },
+  { name: "cinco de mayo", month: "may" },
+  { name: "halloween", month: "october" },
 ];
 
 // Question 1: Given the array above, write the callback for 'find' to return
 // the holiday object that occurs in the month of 'may'.
-const mayHoliday = holidays.find(() => {});
+const mayHoliday = holidays.find((holiday) => holiday.name === "cinco de mayo");
+console.log(mayHoliday);
 
-const words = ['cat', 'bath', 'orange', 'tap', 'bay', 'ha', 'extravagant'];
+const words = ["cat", "bath", "orange", "tap", "bay", "ha", "extravagant"];
 
 // Question 2: Given the array above, write the callback for 'filter' to return
 // a new array that only has the words from the original that had less than four
@@ -28,13 +29,13 @@ const doesEveryWordContainA = words.every(() => {});
 const doesAnyWordContainX = words.some(() => {});
 
 const developersArray = [
-	{ name: 'ralph', language: 'javascript' },
-	{ name: 'gretchen', language: 'javascript' },
-	{ name: 'alice', language: 'python' },
-	{ name: 'mohammed', language: 'javascript' },
-	{ name: 'pat', language: 'python' },
-	{ name: 'taylor', language: 'python' },
-	{ name: 'hideo', language: 'javascript' },
+  { name: "ralph", language: "javascript" },
+  { name: "gretchen", language: "javascript" },
+  { name: "alice", language: "python" },
+  { name: "mohammed", language: "javascript" },
+  { name: "pat", language: "python" },
+  { name: "taylor", language: "python" },
+  { name: "hideo", language: "javascript" },
 ];
 
 // BONUS!!!!! Given the array of developer objects above, write the callback
