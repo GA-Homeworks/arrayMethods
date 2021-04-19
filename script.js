@@ -29,7 +29,7 @@ const doesEveryWordContainA = words.every((word) => word.includes("a"));
 // Question 4: Given the same array of words, write the callback for 'some' to
 // determine if any word in the array contains the letter 'x'.
 const doesAnyWordContainX = words.some((word) => word.includes("x"));
-console.log(doesEveryWordContainA);
+console.log(doesAnyWordContainX);
 
 const developersArray = [
   { name: "ralph", language: "javascript" },
@@ -44,6 +44,7 @@ const developersArray = [
 // BONUS!!!!! Given the array of developer objects above, write the callback
 // function for reduce to return an object that has two keys, 'javascript' and
 // 'python'.
+// const r = developersArray.reduce((v) => v);
 
 // The 'javascript' key should be equal to the number of developers that have
 // 'javascript' set to their 'language'.
