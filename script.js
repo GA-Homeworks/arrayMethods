@@ -29,7 +29,7 @@ const doesEveryWordContainA = words.every((word) => word.includes("a"));
 // Question 4: Given the same array of words, write the callback for 'some' to
 // determine if any word in the array contains the letter 'x'.
 const doesAnyWordContainX = words.some((word) => word.includes("x"));
-console.log(doesAnyWordContainX);
+// console.log(doesAnyWordContainX);
 
 const developersArray = [
   { name: "ralph", language: "javascript" },
@@ -59,4 +59,12 @@ const developersArray = [
   python: 3
 }
 */
-const devLanguageCounts = developersArray.reduce(() => {}, {});
+const devLanguageCounts = developersArray.reduce((map, language) => {
+  if (!map[language]) {
+    map[language] = 1;
+  } else {
+    map[language]++;
+  }
+  return map;
+}, {});
+console.log(devLanguageCounts);
